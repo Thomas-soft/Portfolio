@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt/config'
+import projects from './data/projects.json'
 
 export default defineNuxtConfig({
   ssr: false,
@@ -12,7 +13,11 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'github-pages'
+    preset: 'github-pages',
+    prerender: {
+      crawlLinks: true,  // suit tous les liens internes
+      routes: projects.map(p => `/projects/${p.slug}`)  // génère /projects/mon-slug/index.html
+    }
   },
   css: ['~/assets/styles/main.scss'],
   vite: {
