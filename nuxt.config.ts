@@ -4,7 +4,12 @@ export default defineNuxtConfig({
   ssr: false,
   app: {
     baseURL: '/Portfolio/',
-    buildAssetsDir: '_nuxt/'
+    buildAssetsDir: '_nuxt/',
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/Portfolio/favicon.ico' }
+      ]
+    }
   },
   nitro: {
     preset: 'github-pages'

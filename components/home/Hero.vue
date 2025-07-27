@@ -19,7 +19,7 @@
 
     <div class="hero__image">
       <img
-        src="/images/robot-cartoon-hero.png"
+        src="/Portfolio/images/robot-cartoon-hero.png"
         alt="Expert en automatisation no-code et IA avec Make et Airtable"
       />
     </div>

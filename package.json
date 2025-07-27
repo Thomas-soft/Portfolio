@@ -3,13 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "generate:prod": "NODE_ENV=production nuxt generate",
-    "deploy": "npm run generate:prod && touch .output/public/.nojekyll && npx gh-pages -d .output/public"
+    "build": "nuxt build",
+    "generate": "nuxi generate",
+    "build:gh": "NUXT_APP_BASE_URL=/Portfolio/ npx nuxt build --preset github_pages",
+    "deploy": "npm run build:gh && touch .output/public/.nojekyll && npx gh-pages --dotfiles -d .output/public"
   },
   "dependencies": {
     "nuxt": "^3.17.4",
