@@ -46,7 +46,6 @@ const loadMore = () => (visibleCount.value += 3);
 </script>
 
 <style scoped lang="scss">
-@use "sass:color";
 .projects-page {
   padding: 4rem 2rem;
   background: linear-gradient(135deg, #15002b, #2e006b);

@@ -40,8 +40,6 @@ defineProps({
 </script>
 
 <style scoped lang="scss">
-@use "sass:color"; // tout en haut du fichier .scss
-
 .project-card {
   background: linear-gradient(135deg, #2d0b75, #39238f);
   padding: 2rem;
