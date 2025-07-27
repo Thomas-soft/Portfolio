@@ -160,7 +160,7 @@ h1 {
     transition: all 0.3s;
 
     &:hover {
-      background: lighten($color-accent, 10%);
+      background: color.adjust($color-accent, $lightness: 10%);
     }
   }
 }
