@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Mini CRM automatisé sans code",
+    "slug": "crm-automatisation-make-airtable",
+    "icon": "📋",
+    "tags": ["⚙️ Make", "📦 Airtable", "📅 Calendly", "📝 YouForm"],
+    "description": "Un CRM simple et 100% automatisé pour gérer, relancer et suivre les prospects sans effort.",
+    "problem": "Il est chronophage de suivre manuellement les prospects, envoyer les relances, gérer les RDV et savoir qui relancer, quand et pourquoi.",
+    "solution": "Un système construit avec Make, Airtable, YouForm et Calendly : du formulaire initial à la prise de RDV, chaque étape est automatisée. Les leads sont centralisés, scorés, relancés automatiquement si besoin et historisés dans Airtable.",
+    "impact": "Temps de gestion divisé par 4, taux de RDV augmenté de 30%, visibilité claire sur les leads les plus chauds. Aucune tâche manuelle répétitive à faire.",
+    "testimonial": {
+      "quote": "C’est comme avoir un assistant commercial qui bosse 24/7 pour moi. Je ne rate plus jamais une opportunité.",
+      "author": "Moi-même 😉"
+    },
+    "image": "/images/1.png",
+    "link": "https://www.loom.com/share/lien-video-demo"
+  },
+  {
+    "title": "Agent IA pour salons de coiffure",
+    "slug": "agent-ia-coiffeurs-telegram-whatsapp",
+    "icon": "🤖",
+    "tags": ["AI", "OpenAI", "Telegram", "WhatsApp", "Google Sheets", "RAG"],
+    "description": "Un agent IA connecté à Telegram et WhatsApp, qui gère les prises de rendez-vous, modifications, annulations et informations sur les prestations des salons de coiffure.",
+    "problem": "La gestion des rendez-vous et des demandes clients via téléphone ou messages prend du temps et interrompt le travail des coiffeurs.",
+    "solution": "Un assistant IA propulsé par OpenAI capable de gérer automatiquement les RDV (prise, modification, annulation), d'accéder à l'agenda en temps réel, à une base de données (RAG) et à un Google Sheets contenant toutes les prestations, prix et descriptions. Si l'IA ne peut pas répondre, elle transfère la conversation au chef du salon.",
+    "impact": "Réduction des interruptions téléphoniques, meilleure organisation des plannings, plus de temps pour se concentrer sur les clients. Les RDV sont gérés 24/7 sans effort.",
+    "testimonial": {
+      "quote": "Mon agent IA répond aux clients même quand je suis en train de coiffer. J’ai gagné en sérénité et mes RDV sont toujours bien organisés.",
+      "author": "Moi-même 😉"
+    },
+    "image": "/images/1.png",
+    "link": "https://www.loom.com/share/lien-video-demo"
+  }
+]
